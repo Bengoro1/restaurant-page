@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 50px;
+  margin: 0;
+}
+
+#content > img {
+  width: 100%;
+}
+
+#content > button {
+  box-sizing: border-box;
+  width: 120px;
+  position: absolute;
+  top: 30px;
+  font-size: 24px;
+  padding: 5px 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.629);
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+}
+
+#content {
+  margin: 100px 20vw;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.home-button {
+  left: calc(50vw - 200px);
+}
+
+.contact-button {
+  left: calc(50vw + 100px);
+}
+
+.menu-button {
+  left: calc(50vw - 50px);
+}
+
+#content div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.signature > .git-logo {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: transform 1s;
+}
+
+.signature > .git-logo:hover {
+  transform: rotate(180deg);
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
