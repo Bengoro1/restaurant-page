@@ -3,7 +3,7 @@ import homePage from './home.js';
 import menuPage from './menu.js';
 import contactPage from './contact.js';
 
-document.body.style.backgroundImage = "url('../dist/Good_Food_Display_-_NCI_Visuals_Online.jpg')";
+document.body.style.backgroundImage = "url('./Good_Food_Display_-_NCI_Visuals_Online.jpg')";
 document.body.style.backgroundSize = '100vw';
 
 const footer = document.createElement('div');
